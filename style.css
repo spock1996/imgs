@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 500vh;
+    background: green;
+}
+
+
+canvas {
+    position: fixed;
+    max-width: 100vh;
+    height: 100vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+/* section {
+    height: 100vh;
+    color: #444;
+} */
+
+
+/* section h1 {
+    padding-top: 300px;
+    text-align: center;
+    font-size: 80px;
+} */
